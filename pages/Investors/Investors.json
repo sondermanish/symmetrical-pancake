@@ -44,9 +44,7 @@
               "collectionId": "Investors_utils",
               "confirmBeforeExecute": false,
               "pluginType": "JS",
-              "jsonPathKeys": [
-                "async () => {\n  try {\n    const data = await SelectQuery.run();\n    if (data && data.length > 0) {\n      return data;\n    }\n  } catch (error) {\n    return utils.getDummyData();\n  }\n}"
-              ],
+              "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
           ]
