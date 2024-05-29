@@ -1,15 +1,11 @@
 {
+  "gitSyncId": "65441be5c119167eda9802c6_65441f94c119167eda980413",
+  "id": "Investors_utils",
   "unpublishedCollection": {
     "name": "utils",
     "pageId": "Investors",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
-    "variables": [],
-    "userPermissions": []
-  },
-  "id": "Investors_utils",
-  "deleted": false,
-  "gitSyncId": "65441be5c119167eda9802c6_65441f94c119167eda980413"
+    "variables": []
+  }
 }

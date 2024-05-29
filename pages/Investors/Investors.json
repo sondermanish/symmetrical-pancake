@@ -1,66 +1,32 @@
 {
+  "gitSyncId": "65441be5c119167eda9802c6_65441f94c119167eda980404",
   "unpublishedPage": {
-    "name": "Investors",
-    "slug": "investors",
     "layouts": [
       {
-        "viewMode": false,
         "dsl": {
-          "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 1160,
-          "snapColumns": 64,
-          "detachFromLayout": true,
-          "widgetId": "0",
-          "topRow": 0,
           "bottomRow": 870,
-          "containerStyle": "none",
-          "snapRows": 125,
-          "parentRowSpace": 1,
-          "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 89,
+          "containerStyle": "none",
+          "detachFromLayout": true,
+          "dynamicBindingPathList": [],
+          "dynamicTriggerPathList": [],
+          "leftColumn": 0,
           "minHeight": 1170,
           "parentColumnSpace": 1,
-          "dynamicTriggerPathList": [],
-          "dynamicBindingPathList": [],
-          "leftColumn": 0
-        },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Investors_SelectQuery",
-              "name": "SelectQuery",
-              "confirmBeforeExecute": false,
-              "pluginType": "SAAS",
-              "jsonPathKeys": [
-                "(data_table.pageNo - 1) * data_table.pageSize"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Investors_utils.getInvestors",
-              "name": "utils.getInvestors",
-              "collectionId": "Investors_utils",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
-        "layoutOnLoadActionErrors": [],
-        "validOnPageLoadActions": true,
-        "id": "Investors",
-        "deleted": false,
-        "policies": [],
-        "userPermissions": []
+          "parentRowSpace": 1,
+          "rightColumn": 1160,
+          "snapColumns": 64,
+          "snapRows": 125,
+          "topRow": 0,
+          "type": "CANVAS_WIDGET",
+          "version": 89,
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
       }
     ],
-    "userPermissions": [],
-    "policies": [],
-    "isHidden": false
-  },
-  "deleted": false,
-  "gitSyncId": "65441be5c119167eda9802c6_65441f94c119167eda980404"
+    "name": "Investors",
+    "slug": "investors"
+  }
 }
